@@ -1203,3 +1203,94 @@ h1, h2, h3, h4, h5,
     .slide-one-item .owl-dots .owl-dot.active > span {
       width: 20px;
       background: #fff; }
+
+.footer-suscribe-form .form-control {
+  color: #000; }
+  .footer-suscribe-form .form-control:hover, .footer-suscribe-form .form-control:active, .footer-suscribe-form .form-control:focus {
+    color: #000 !important; }
+
+.footer-suscribe-form .btn {
+  color: #fff; }
+
+.ftco-blocks-cover-1 .ftco-service-image-1 {
+  margin-top: -70px;
+  position: static; }
+
+.ftco-cover-1 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .ftco-cover-1, .ftco-cover-1 .container > .row {
+    height: 100vh;
+    min-height: 900px; }
+  .ftco-cover-1.innerpage, .ftco-cover-1.innerpage .container > .row {
+    height: 90vh;
+    min-height: 700px; }
+  .ftco-cover-1 > .container {
+    position: relative; }
+  .ftco-cover-1.overlay {
+    position: relative; }
+    .ftco-cover-1.overlay:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .5;
+      background: #000; }
+    .ftco-cover-1.overlay h1 {
+      color: #fff;
+      font-size: 3rem; }
+    .ftco-cover-1.overlay p {
+      color: #fff; }
+      .ftco-cover-1.overlay p a {
+        color: #fff;
+        font-weight: 700; }
+        .ftco-cover-1.overlay p a:hover {
+          text-decoration: none; }
+    .ftco-cover-1.overlay form .form-control,
+    .ftco-cover-1.overlay form .btn {
+      height: 55px;
+      border-radius: 4px; }
+    .ftco-cover-1.overlay form .form-control {
+      padding-left: 20px;
+      padding-right: 20px;
+      border-color: transparent;
+      margin-right: 10px; }
+    .ftco-cover-1.overlay form .btn {
+      border-color: transparent; }
+
+.owl-all .owl-dots {
+  text-align: center;
+  margin-top: 30px; }
+  .owl-all .owl-dots .owl-dot {
+    display: inline-block; }
+    .owl-all .owl-dots .owl-dot > span {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      background: #ccc;
+      margin: 5px;
+      border-radius: 50%; }
+    .owl-all .owl-dots .owl-dot.active > span {
+      background: #dc3545; }
+
+@media (min-width: 992px) {
+  .owl-all .owl-nav,
+  .owl-all .owl-dots {
+    display: none; }
+  .owl-all .owl-stage {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    width: 120% !important;
+    padding-top: 10px; }
+  .owl-all .owl-carousel .owl-stage-outer {
+    width: 100%;
+    overflow: visible; }
+  .owl-all .owl-stage-outer > .owl-stage > .owl-item {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    float: none;
+    margin-bottom: 30px; } }
