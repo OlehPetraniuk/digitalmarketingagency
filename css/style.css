@@ -1294,3 +1294,43 @@ h1, h2, h3, h4, h5,
     display: inline-grid;
     float: none;
     margin-bottom: 30px; } }
+
+
+.blog-entry .blog-thumbnail {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 150px;
+  flex: 0 0 150px;
+  margin-right: 20px; }
+  .blog-entry .blog-thumbnail img {
+    border-radius: 4px; }
+
+.blog-entry .blog-excerpt a {
+  color: #000; }
+  .blog-entry .blog-excerpt a:hover {
+    color: #dc3545; }
+
+.bg-light {
+  background-color: #f6f5f5 !important; }
+
+.post-entry-1 .meta {
+  color: #ccc; }
+
+.post-entry-1 .post-entry-1-contents {
+  background: #fff;
+  padding: 20px; }
+  .post-entry-1 .post-entry-1-contents h2 {
+    font-size: 22px;
+    margin-bottom: 20px; }
+    .post-entry-1 .post-entry-1-contents h2 a {
+      color: #000; }
+      .post-entry-1 .post-entry-1-contents h2 a:hover {
+        color: #dc3545; }
+
+.post-entry-1.person-1 {
+  text-align: center; }
+  .post-entry-1.person-1 img {
+    width: 90px;
+    border-radius: 50%;
+    margin: 0 auto -45px auto; }
+  .post-entry-1.person-1 .post-entry-1-contents {
+    padding-top: 4rem; }
